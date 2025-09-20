@@ -1,16 +1,24 @@
-# phone_call
+# Phone Call & Device Integration App (Flutter)
 
-A new Flutter project.
+A Flutter application demonstrating **device integration** using the **url_launcher** package. The app enables seamless interactions with device functionalities, such as making phone calls directly from the app.
 
-## Getting Started
+## Features
+- **Initiate phone calls** directly from the app  
+- **Intuitive UI** with buttons and text prompts  
+- **Quick communication actions** for smooth user experience  
+- **Lightweight and responsive** design suitable for both mobile and web  
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Frontend:** Flutter  
+- **Device Integration:** url_launcher package  
 
-A few resources to get you started if this is your first Flutter project:
+## How It Works
+1. User opens the app.  
+2. Selects a contact or clicks the call button.  
+3. The app uses **url_launcher** to trigger the phone dialer with the selected number.  
+4. User can quickly make a phone call using the device’s native dialer.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Enhancements
+- Add **SMS and email integration**  
+- Add **contact list integration** for dynamic phone numbers  
+- Enhance UI/UX with animations and themes
